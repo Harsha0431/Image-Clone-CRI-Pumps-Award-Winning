@@ -24,7 +24,7 @@ function App() {
   ];
 
   return (
-    <div className="flex flex-col h-full w-[100vw] min-h-[100vh] overflow-x-hidden px-4 max-vsm:px-2 text-base max-lg:text-sm/5 max-vsm:text-xs pb-1.5 bitter-font">
+    <div className="flex tracking-wide flex-col h-full w-[100vw] min-h-[100vh] overflow-x-hidden px-1.5 text-base max-lg:text-sm/5 max-vsm:text-xs pb-1.5 bitter-font">
       <header className="image-container w-full object-contain overflow-x-hidden flex justify-center place-items-center">
         <img
           src={Logo}
@@ -42,7 +42,7 @@ function App() {
         </figure>
         <div className="description-container md:w-[60%] flex flex-col gap-y-3 justify-center place-items-center">
           <div className="description-data flex flex-col gap-y-2">
-            <span className="font-bold text-start">
+            <span className="font-extrabold text-start">
               C.R.I. PUMPS WINS THE NATIONAL ENERGY CONSERVATION AWARD 2018 for
               the 4th time.
             </span>
@@ -68,7 +68,7 @@ function App() {
             />
             <span className="">
               Government of India has awarded the{" "}
-              <span className="font-bold">
+              <span className="font-extrabold">
                 &quot;National Energy Conservation Award 2018&quot;
               </span>
               . Mr. G. Selvaraj, Joint Managing Director of C.R.I. Group
@@ -96,7 +96,7 @@ function App() {
       </div>
       <div className="border-t-[2px] pt-4 relative mt-4 border-[#a52326]">
         <div className="flex w-full text-base max-ssm:text-xs justify-center place-items-center text-center">
-          <span className="font-bold">
+          <span className="font-extrabold">
             C.R.I. FLUID SYSTEMS PRODUCTS CATER TO DIVERSE SEGMENTS
           </span>
         </div>
@@ -135,7 +135,7 @@ function App() {
               </svg>
             </div>
             <div className="flex justify-center align-text-bottom h-fit">
-              <span className="align-text-bottom flex tracking-wide">
+              <span className="align-text-bottom flex tracking-wider">
                 Toll free<span className="font-bold px-1">1800 200 1234</span>
               </span>
             </div>
@@ -154,7 +154,7 @@ function App() {
               <path d="M25,3C12.85,3,3,12.85,3,25c0,11.03,8.125,20.137,18.712,21.728V30.831h-5.443v-5.783h5.443v-3.848 c0-6.371,3.104-9.168,8.399-9.168c2.536,0,3.877,0.188,4.512,0.274v5.048h-3.612c-2.248,0-3.033,2.131-3.033,4.533v3.161h6.588 l-0.894,5.783h-5.694v15.944C38.716,45.318,47,36.137,47,25C47,12.85,37.15,3,25,3z"></path>
             </svg>
             <div className="flex justify-center align-text-bottom h-full relative top-[40%]">
-              <span className="align-text-bottom flex tracking-wide">
+              <span className="align-text-bottom flex tracking-wider">
                 www.facebook.com/cripumps
               </span>
             </div>
@@ -232,7 +232,7 @@ function App() {
             </svg>
 
             <div className="flex justify-center align-text-bottom h-fit">
-              <span className="align-text-bottom flex tracking-wide">
+              <span className="align-text-bottom flex tracking-wider">
                 www.crigroups.com
               </span>
             </div>
